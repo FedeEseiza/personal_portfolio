@@ -1,1 +1,1 @@
-# personal_portfolio
+# Porfolio personal, informacion sobre mis proyectos y mi CV
