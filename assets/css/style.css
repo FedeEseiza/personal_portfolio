@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* NAVBAR */
+.max-width
+{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar
+{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+.navbar.sticky
+{
+    padding: 15px 0;
+    background: #48c9b0;
+}
+.navbar .max-width
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a
+{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.navbar .logo a span
+{
+    color: #48c9b0;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span
+{
+    color: #fff;
+}
+.navbar .menu li
+{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a
+{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover
+{
+    color: #48c9b0;
+}
+.navbar.sticky .menu li a:hover
+{
+    color: black;
+}
+/* HOME */
+.home
+{
+    display: flex;
+    background: url("../img/banner.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Poppins', sans-serif;
+}
+.home .max-width
+{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1
+{
+    font-size: 2rem;
+}
+.home .home-content .text-2
+{
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-left: -3px
+}
+.home .home-content .text-3
+{
+    font-size: 2.2rem;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span
+{
+    color: #48c9b0;
+    font-weight: 500;
+}
+/* ABOUT */
+section
+{
+    padding: 100px 0;
+}
+.about
+{
+    font-family: 'Poppins', sans-serif;
+}
+.about .title
+{
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+}
+.about .title::before
+{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 9rem;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+.about .title::after
+{
+    content: "Quien soy";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 1rem;
+    color: #48c9b0;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+.about .about-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about .about-content .left
+{
+    width: 45%;
+}
+.about .about-content .left img
+{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right
+{
+    width: 55%;
+}
+.about .about-content .right .text
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right p
+{
+    text-align: justify;
+}
+.about .about-content .right a
+{
+    display: inline-block;
+    background: #48c9b0;
+    color: #fff;
+    font-size: 1rem;
+    padding: 5px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #48c9b0;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover
+{
+    color: #48c9b0;
+    background: none;
+}
+
+
+/* NAVBAR */
+/* NAVBAR */
+/* NAVBAR */
